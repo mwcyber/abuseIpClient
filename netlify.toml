@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://api.abuseipdb.com/api/v2"
+  to = "https://api.abuseipdb.com/api/v2/:splat"
   status = 200
 
 [[headers]]
