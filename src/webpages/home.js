@@ -41,9 +41,9 @@ const Home = () => {
             return (
                 <tr>
                     <td>{element.data.ipAddress}</td>
-                    <td>{(element.data.isPublic).toString() || 'null'}</td>
+                    <td>{(element.data.isPublic).toString() ?? 'null'}</td>
                     <td>{element.data.ipVersion}</td>
-                    <td>{(element.data.isWhitelisted).toString() || 'null'}</td>
+                    <td>{(element.data.isWhitelisted).toString() ?? 'null'}</td>
                     <td>{element.data.abuseConfidenceScore}</td>
                     <td>{element.data.countryCode}</td>
                     <td>{element.data.usageType}</td>
