@@ -1,6 +1,6 @@
 export async function getAbuseipInfo(ips, apiKey) {
 
-    const baseUrl = "https://api.abuseipdb.com/api/v2/check?ipAddress=";
+    const baseUrl = "/api/check?ipAddress=";
     const result = [];
 
     for (let i = 0; i < Object.keys(ips).length; i++) {
